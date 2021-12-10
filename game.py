@@ -13,7 +13,7 @@ while hp > 0:
 		else:
 			print("-");
 	print(f"Your HP : {hp}");
-	guess = input("Your Guess : ");
+	guess = input("Your Guess : ").lower();
 
 	if guess in word:
 		knowing_letter.append(guess);
