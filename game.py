@@ -32,9 +32,6 @@ while hp > 0:
 			print("-");
 	print(f"Your HP : {hp}");
 	guess = input("Your Guess : ");
-	if guess == "answer":
-		print(word);
-		break;
 	if guess == "i":
 		guess = "İ"
 	else:
