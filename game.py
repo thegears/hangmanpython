@@ -11,7 +11,7 @@ language = input("Your Language (en , tr) : ").lower();
 while language != "en" and language != "tr":
 	language = input("Your Language (EN , TR) : ").lower();
 
-with open(f"words_{language}.txt",mode="r") as isimler:
+with open(f"words_{language}.txt",mode="r",encoding="utf8") as isimler:
 	word_list = isimler.read().split("\n");
 	isimler.close();
 
